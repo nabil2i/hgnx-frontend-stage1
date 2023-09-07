@@ -1,0 +1,39 @@
+@import "./normalize.css";
+
+html {
+  font-size: 62.5%;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: green;
+}
+
+/* images */
+.profile-picture {
+  max-width: 150px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+section {
+  margin-left: 20px;
+}
+
+div :first-child {
+  color: rgb(21, 99, 43);
+}
